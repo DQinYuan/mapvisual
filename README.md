@@ -19,5 +19,5 @@ npm run dev
 npm run build
 ```
 
-
+大陆的朋友建议用cnpm代替npm
 
