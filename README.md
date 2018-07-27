@@ -2,7 +2,7 @@
 
 基于Element-ui， Vue和Vue-echarts的地图渐热效果实现。
 
-效果展示地址：
+效果展示地址：https://dqinyuan.github.io/mapvisual/index.html
 
 
 
