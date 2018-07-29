@@ -1,12 +1,15 @@
 <template>
   <div>
     <el-col :span="2">
+      <!-- 开始按钮 -->
       <el-button type="primary" icon="el-icon-refresh"  circle v-show="activeIndex == 1"
         @click="refreshMap"></el-button>
+      <!-- 进度条 -->
       <el-steps direction="vertical" :active="activeStep" v-show="activeIndex == 1">
         <el-step v-for="datestr in datestrs" :title="datestr"></el-step>
       </el-steps>
     </el-col>
+    <!-- 地图 -->
     <el-col :span="22">
         <router-view/>
     </el-col>

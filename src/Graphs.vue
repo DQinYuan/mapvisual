@@ -40,6 +40,13 @@ export default {
       finance_cursor,
       estate_cursor
     ];
+    /**
+     * fields:与echarts视图绑定的数组
+     * field_datas:完整的数据数组
+     * cursor_index:该地图的游标在游标数组(cursors)中的位置
+     * com_date:当前时间
+     * factor:期望更新的点在地图中占的比重，比重越大，则越热
+     */
     function update(fields, field_datas, cursor_index, com_date, factor) {
       for (
         ;
